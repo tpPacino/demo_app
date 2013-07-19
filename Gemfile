@@ -10,7 +10,7 @@ group :production, :staging do
 end
 
 group :development, :test do
-  gem 'sqlite3', '1.2.5', :require => 'sqlite3'
+  gem 'sqlite3-ruby', '>= 1.3.1', :require => 'sqlite3'
 end
 
 gem 'rake', '0.8.7', :require => 'rake'
